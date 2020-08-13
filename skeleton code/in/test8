@@ -1,0 +1,12 @@
+addItem 2 2 item22 100
+addItem 1 1 item11 100
+addItem 3 3 item33 500
+addItem 4 4 item44 100
+addItem 5 5 Item50 300
+addItemTransaction 1 1 item11 10 10 3 2000
+addItemTransaction 2 2 item22 10 10 3 2000
+addItemTransaction 3 3 item33 10 10 3 2000
+addItemTransaction 5 5 Item50 10 10 3 2000
+addItemTransaction 4 4 item44 10 10 3 2000
+sortByPurchasePeriod 1 1 2000 11 6 2020
+checkMergeSort

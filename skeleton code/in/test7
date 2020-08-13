@@ -1,0 +1,15 @@
+addItem 2 2 item22 100
+addItem 4 4 item44 100
+addItem 1 1 item11 100
+addItem 3 3 item33 500
+addItem 5 5 item55 300
+addItem 5 2 item52 300
+addItemTransaction 1 1 item11 10 10 3 2001
+addItemTransaction 2 2 item22 10 10 3 2003
+addItemTransaction 5 2 item52 10 10 3 2020
+addItemTransaction 3 3 item33 10 10 3 2000
+addItemTransaction 4 4 item44 10 10 3 2006
+addItemTransaction 5 2 item52 10 10 3 2005
+addItemTransaction 5 5 item55 10 10 3 1978
+sortByLastDate
+checkMergeSort

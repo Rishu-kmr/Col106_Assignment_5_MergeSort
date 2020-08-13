@@ -1,0 +1,99 @@
+<!DOCTYPE module PUBLIC
+  "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+  "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+    <property name="charset" value="UTF-8"/>
+
+    <!-- Suppressions for resources -->
+    <module name="SuppressionFilter">
+        <property name="file"
+                  value="suppressions.xml"/>
+    </module>
+
+    <module name="TreeWalker">
+	    <module name="AvoidStarImport">
+	    </module>
+
+        <module name="IllegalImport">
+            <property name="illegalClasses" value="java.util.AbstractCollection" />
+            <property name="illegalClasses" value="java.util.AbstractList" />
+            <property name="illegalClasses" value="java.util.AbstractMap" />
+            <property name="illegalClasses" value="java.util.AbstractMap.SimpleEntry" />
+            <property name="illegalClasses" value="java.util.AbstractMap.SimpleImmutableEntry" />
+            <property name="illegalClasses" value="java.util.AbstractQueue" />
+            <property name="illegalClasses" value="java.util.AbstractSequentialList" />
+            <property name="illegalClasses" value="java.util.AbstractSet" />
+            <property name="illegalClasses" value="java.util.ArrayDeque" />
+            <property name="illegalClasses" value="java.util.ArrayList" />
+            <property name="illegalClasses" value="java.util.Arrays" />
+            <property name="illegalClasses" value="java.util.BitSet" />
+            <property name="illegalClasses" value="java.util.Calendar" />
+            <property name="illegalClasses" value="java.util.Collections" />
+            <property name="illegalClasses" value="java.util.Currency" />
+            <property name="illegalClasses" value="java.util.Date" />
+            <property name="illegalClasses" value="java.util.Dictionary" />
+            <property name="illegalClasses" value="java.util.EnumMap,V>" />
+            <property name="illegalClasses" value="java.util.EnumSet" />
+            <property name="illegalClasses" value="java.util.EventListenerProxy" />
+            <property name="illegalClasses" value="java.util.EventObject" />
+            <property name="illegalClasses" value="java.util.FormattableFlags" />
+            <property name="illegalClasses" value="java.util.Formatter" />
+            <property name="illegalClasses" value="java.util.GregorianCalendar" />
+            <property name="illegalClasses" value="java.util.HashMap" />
+            <property name="illegalClasses" value="java.util.HashSet" />
+            <property name="illegalClasses" value="java.util.Hashtable" />
+            <property name="illegalClasses" value="java.util.IdentityHashMap" />
+            <property name="illegalClasses" value="java.util.LinkedHashMap" />
+            <property name="illegalClasses" value="java.util.LinkedHashSet" />
+            <property name="illegalClasses" value="java.util.LinkedList" />
+            <property name="illegalClasses" value="java.util.ListResourceBundle" />
+            <property name="illegalClasses" value="java.util.Locale – Set 1, Set 2" />
+            <property name="illegalClasses" value="java.util.Locale.Builder" />
+            <property name="illegalClasses" value="java.util.Objects" />
+            <property name="illegalClasses" value="java.util.Observable" />
+            <property name="illegalClasses" value="java.util.PriorityQueue" />
+            <property name="illegalClasses" value="java.util.Properties" />
+            <property name="illegalClasses" value="java.util.PropertyPermission" />
+            <property name="illegalClasses" value="java.util.PropertyResourceBundle" />
+            <property name="illegalClasses" value="java.util.Random" />
+            <property name="illegalClasses" value="java.util.ResourceBundle" />
+            <property name="illegalClasses" value="java.util.ResourceBundle.Control" />
+            <property name="illegalClasses" value="java.util.Scanner" />
+            <property name="illegalClasses" value="java.util.ServiceLoader" />
+            <property name="illegalClasses" value="java.util.SimpleTimeZone" />
+            <property name="illegalClasses" value="java.util.Stack" />
+            <property name="illegalClasses" value="java.util.StringTokenizer" />
+            <property name="illegalClasses" value="java.util.Timer" />
+            <property name="illegalClasses" value="java.util.TimerTask" />
+            <property name="illegalClasses" value="java.util.TimeZone" />
+            <property name="illegalClasses" value="java.util.TreeMap" />
+            <property name="illegalClasses" value="java.util.TreeSet" />
+            <property name="illegalClasses" value="java.util.UUID" />
+            <property name="illegalClasses" value="java.util.Vector" />
+            <property name="illegalClasses" value="java.util.WeakHashMap" />
+            <property name="illegalClasses" value="java.util.Collection" />
+            <!-- <property name="illegalClasses" value="java.util.Comparator" /> -->
+            <property name="illegalClasses" value="java.util.Deque" />
+            <property name="illegalClasses" value="java.util.Enumeration" />
+            <property name="illegalClasses" value="java.util.EventListener" />
+            <property name="illegalClasses" value="java.util.Formattable" />
+            <property name="illegalClasses" value="java.util.Iterator" />
+            <property name="illegalClasses" value="java.util.List" />
+            <property name="illegalClasses" value="java.util.ListIterator" />
+            <property name="illegalClasses" value="java.util.Map" />
+            <property name="illegalClasses" value="java.util.Map.Entry" />
+            <property name="illegalClasses" value="java.util.NavigableMap" />
+            <property name="illegalClasses" value="java.util.NavigableSet" />
+            <property name="illegalClasses" value="java.util.Observer" />
+            <property name="illegalClasses" value="java.util.Queue" />
+            <property name="illegalClasses" value="java.util.RandomAccess" />
+            <property name="illegalClasses" value="java.util.Set" />
+            <property name="illegalClasses" value="java.util.SortedMap" />
+            <property name="illegalClasses" value="java.util.SortedSet" />
+
+            <property name="regexp" value="true" />
+        </module>
+
+    </module>
+</module>

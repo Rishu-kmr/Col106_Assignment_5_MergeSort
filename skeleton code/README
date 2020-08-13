@@ -1,0 +1,10 @@
+* To run checker on linux just run this commans
+
+sh checker.sh
+
+
+
+* To run checker on windows run these two commands
+
+javac -cp vpl-junit-0.5.jar -J-Xmx16m -Xlint:deprecation Checker.java *.java
+java -jar vpl-junit-0.5.jar Checker

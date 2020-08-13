@@ -1,0 +1,30 @@
+addItem 1 1 item11 100
+addItem 1 2 item12 250
+addItem 2 1 item21 100
+addItem 2 2 item22 300
+addItem 3 1 item31 200
+addItem 3 2 item32 260
+addItem 3 3 item33 500
+addItem 4 1 item41 1000
+addItem 4 2 item42 400
+addItem 5 1 item51 300 
+addItemTransaction 1 1 item11 10 10 3 2000
+addItemTransaction 1 2 item12 20 20 6 2005
+addItemTransaction 2 1 item21 15 25 1 1998
+addItemTransaction 2 2 item22 35 16 10 1997
+addItemTransaction 3 1 item31 20 9 12 1996
+addItemTransaction 3 3 item33 30 16 2 1998
+addItemTransaction 3 2 item32 5 2 5 2010
+addItemTransaction 4 1 item41 6 18 7 1997
+addItemTransaction 4 2 item42 10 26 9 2009
+addItemTransaction 5 1 item51 25 6 11 2006
+addItemTransaction 1 2 item12 15 1 10 2000
+addItemTransaction 3 3 item33 50 26 5 2016
+addItemTransaction 4 1 item41 8 10 7 1998
+addItemTransaction 4 2 item42 12 26 8 1999
+addItemTransaction 5 1 item51 21 6 10 2008
+addItemTransaction 3 2 item32 5 28 8 2011
+addItemTransaction 2 2 item22 5 16 1 2010
+addItemTransaction 1 1 item11 16 10 5 1995
+sortByPurchasePeriod 1 1 2000 11 6 2020
+checkMergeSort
